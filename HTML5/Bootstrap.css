@@ -1,0 +1,37 @@
+		body,	
+		html {
+			margin: 0 auto;
+			padding: 0;
+			height: 100%;
+		}
+		.login_btn {
+			position: absolute;
+			text-align: center;
+			margin-top: 4px;
+			width: 80%;
+			background: #c0392b !important;
+			color: white !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #60a3bc;
+			padding: 10px;
+			text-align: center;
+		}
